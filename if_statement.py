@@ -10,6 +10,9 @@ elif value > 50:  # else if
     print("platypus")
 # elif value == True:  # is value equal to 1??
 #     print("Not gonna happen")
+elif value > 25:
+    print("blue-ringed octopus")
+    print("crocodile")
 else:
     print("wombat")
     print("kookaburra")
