@@ -24,3 +24,9 @@ print("range(10, 0, -1): ", end=' ')
 for x in range(10, 0, -1):  # <5>
     print(x, end=' ')
 print()
+
+for i in range(10):
+    print("Python is awesome!")
+
+r = range(1000000)
+print(r)

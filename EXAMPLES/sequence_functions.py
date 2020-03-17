@@ -16,7 +16,10 @@ for m in sorted(colors):   # <1>
 print()
 
 phrase = ('dog', 'bites', 'man')
-print(" ".join(reversed(phrase)))  # <2>
+rev = reversed(phrase)  # rev is a GENERATOR
+print(rev)  # <2>
+for word in rev:
+    print(word)
 print()
 
 first_names = "Bill Bill Dennis Steve Larry".split()
@@ -28,3 +31,18 @@ print()
 
 for first_name, last_name in full_names:
     print("{} {}".format(first_name, last_name))
+
+fn = zip(first_names, last_names)
+print(list(fn))
+print(list(fn))
+print()
+
+for i, color in enumerate(colors):
+    print(i, color)
+print()
+
+print(list(enumerate(colors)))
+
+e = enumerate(colors)
+print(e)
+# print(len(e))  NO LENGTH
