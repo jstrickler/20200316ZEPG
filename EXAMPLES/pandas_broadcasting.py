@@ -29,3 +29,8 @@ print_header("Multiply column gamma by 1.5")
 df['gamma'] *= 1.5  # <6>
 print(df)
 print()
+
+df['eta'] = df['gamma'] * 10
+
+print(df)
+
