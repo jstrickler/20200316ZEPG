@@ -205,7 +205,7 @@ pycurl==7.43.0.2
 pydantic==0.32.2
 pyflakes==2.0.0
 PyGithub==1.43.7
-Pygments==2.4.2
+Pygments==2.7.4
 PyInstaller==3.5
 PyJWT==1.7.1
 pylint==2.2.2
