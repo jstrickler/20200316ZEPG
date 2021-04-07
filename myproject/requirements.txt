@@ -6,7 +6,7 @@ anaconda-client==1.7.2
 anaconda-navigator==1.9.6
 anaconda-project==0.8.2
 aniso8601==8.0.0
-ansible==2.9.5
+ansible==2.10.0
 apiron==5.0.0
 appnope==0.1.0
 appscript==1.0.1
